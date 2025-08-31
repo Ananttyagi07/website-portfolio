@@ -127,7 +127,7 @@ export const AboutSection = () => {
                 </div>
                 <div className="flex items-center gap-3">
                   <Code className="h-4 w-4 text-muted-foreground" />
-                  <span className="font-jetbrains">3rd Year BTech Graduate</span>
+                  <span className="font-jetbrains">pursuing B.Tech degree </span>
                 </div>
                 <div className="flex items-center gap-3">
                   <MapPin className="h-4 w-4 text-muted-foreground" />
