@@ -26,21 +26,21 @@ export const AboutSection = () => {
   ]);
 
   const skills = {
-    'AI/ML': [
-      'TensorFlow', 'PyTorch', 'Scikit-learn', 'OpenCV', 'Hugging Face',
-      'MLflow', 'Kubeflow', 'Ray', 'CUDA', 'ONNX'
+    'AIOps': [
+      'TensorFlow', 'PyTorch', 'Scikit-learn', 'MLflow', 'Kubeflow',
+      'Prometheus', 'Grafana', 'ELK Stack', 'Splunk', 'Dynatrace'
     ],
     'DevOps': [
       'Kubernetes', 'Docker', 'Terraform', 'ArgoCD', 'Jenkins',
-      'GitLab CI', 'Prometheus', 'Grafana', 'ELK Stack', 'Istio'
+      'GitLab CI', 'GitHub Actions', 'Ansible', 'Helm', 'Istio'
     ],
     'Cloud': [
       'AWS', 'GCP', 'Azure', 'CloudFormation', 'Pulumi',
       'Lambda', 'Cloud Run', 'EKS', 'GKE', 'AKS'
     ],
     'Languages': [
-      'Python', 'Go', 'TypeScript', 'Rust', 'Bash',
-      'SQL', 'HCL', 'YAML', 'JavaScript', 'C++'
+      'Python', 'Go', 'TypeScript', 'Bash', 'SQL',
+      'JavaScript', 'Java', 'C++', 'YAML', 'HCL'
     ]
   };
 
@@ -59,8 +59,8 @@ export const AboutSection = () => {
         newHistory.push('Available commands: about, skills, contact, certifications, clear, easter-egg');
         break;
       case 'about':
-        newHistory.push('Senior AI/DevOps Engineer with 8+ years experience');
-        newHistory.push('Specializing in scalable ML infrastructure and cloud automation');
+        newHistory.push('3rd Year BTech Graduate with 3 years experience');
+        newHistory.push('Specializing in AIOps and DevOps practices');
         break;
       case 'skills':
         newHistory.push('Core competencies:');
@@ -70,9 +70,9 @@ export const AboutSection = () => {
         newHistory.push('• Infrastructure as Code');
         break;
       case 'contact':
-        newHistory.push('Email: ai.devops.engineer@example.com');
-        newHistory.push('LinkedIn: /in/ai-devops-engineer');
-        newHistory.push('GitHub: /ai-devops-engineer');
+        newHistory.push('Email: tyagiaadi368@gmail');
+        newHistory.push('Location: Ghaziabad, UP, India');
+        newHistory.push('Domain: AIOps');
         break;
       case 'certifications':
         newHistory.push('Professional Certifications:');
@@ -123,23 +123,23 @@ export const AboutSection = () => {
               <div className="space-y-3">
                 <div className="flex items-center gap-3">
                   <User className="h-4 w-4 text-muted-foreground" />
-                  <span className="font-jetbrains">Alex Rodriguez</span>
+                  <span className="font-jetbrains">Anant Tyagi</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Code className="h-4 w-4 text-muted-foreground" />
-                  <span className="font-jetbrains">Senior AI/DevOps Engineer</span>
+                  <span className="font-jetbrains">3rd Year BTech Graduate</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <MapPin className="h-4 w-4 text-muted-foreground" />
-                  <span className="font-jetbrains">San Francisco, CA</span>
+                  <span className="font-jetbrains">Ghaziabad, UP, India</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Calendar className="h-4 w-4 text-muted-foreground" />
-                  <span className="font-jetbrains">8+ Years Experience</span>
+                  <span className="font-jetbrains">3 Years Experience</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Mail className="h-4 w-4 text-muted-foreground" />
-                  <span className="font-jetbrains text-sm">ai.devops@example.com</span>
+                  <span className="font-jetbrains text-sm">tyagiaadi368@gmail</span>
                 </div>
               </div>
 
@@ -150,7 +150,7 @@ export const AboutSection = () => {
                 <div className="flex flex-wrap gap-2">
                   <Badge variant="secondary" className="gap-1">
                     <Brain className="h-3 w-3" />
-                    AI/ML
+                    AIOps
                   </Badge>
                   <Badge variant="secondary" className="gap-1">
                     <Cloud className="h-3 w-3" />
@@ -161,8 +161,8 @@ export const AboutSection = () => {
                     DevOps
                   </Badge>
                   <Badge variant="secondary" className="gap-1">
-                    <GitBranch className="h-3 w-3" />
-                    IaC
+                    <Terminal className="h-3 w-3" />
+                    Automation
                   </Badge>
                 </div>
               </div>
